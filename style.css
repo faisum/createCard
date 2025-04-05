@@ -1,11 +1,18 @@
 .card{
+    background: rgb(99, 93, 93);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 900px;
 }
 
-
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .img img{
     width: 200px;
@@ -16,7 +23,7 @@
 }
 
 .content h1 p{
-    padding:  2px 0;
+    padding:  10px 10px;
     overflow: hidden;
   text-overflow: ellipsis;
     white-space: nowrap;
