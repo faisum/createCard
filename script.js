@@ -13,17 +13,18 @@ function views(num) {
 
 function createCard(title,cName,views,monthsOld,duration,thumbnail) {
 
-`<div class="container">
+let html=`<div class="container">
     <div class="card">
-        <div class="img">
-            <img src=${thumbnail}">
+        <div class="image">
+          <img src=${thumbnail} alt="thumbnail">
+            <div class="capsule"> ,${duration}</div>
         </div>
         <div class="content">
             <p class="h1">${title}</p>
             <p>${cName} . ${views} views . ${monthsOld} months ago</p>
         </div>
     </div>`
-    
+  document.querySelector(".container").innerHTML=document.querySelector(".container").innerHTML + html
     
 }
 createCard("Installing Vs Code & How websites Work | Sigma Web Development Course - Tutorial #1","CodeWithHarry",3000000,"3Month","https://th.bing.com/th/id/OIP.SY0FtFRGZWgSpY2KEi5axAHaE8?w=269&h=180&c=7&r=0&o=5&pid=1.7")

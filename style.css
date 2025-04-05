@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     width: 900px;
+    padding: 12px;
 }
 
 .container{
@@ -12,10 +13,20 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+}
+.image .capsule{
+    position: relative;
+    z-index: 10;
+    bottom: 25px;
+    left: 150px;
+    color: white;
+   
 }
 
-.img img{
+.image img{
     width: 200px;
+    position: relative;
 }
 .h1{
     font-size: 25px;
