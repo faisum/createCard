@@ -1,18 +1,17 @@
 .card{
     background: rgb(99, 93, 93);
+    border: 2px solid black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 900px;
     padding: 12px;
+    margin: 5px;
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  
 
 }
 .image .capsule{
@@ -33,9 +32,6 @@
     font-weight: bold
 }
 
-.content h1 p{
-    padding:  10px 10px;
-    overflow: hidden;
-  text-overflow: ellipsis;
-    white-space: nowrap;
+.text h1, p{
+    padding:  2px 0;
 }
